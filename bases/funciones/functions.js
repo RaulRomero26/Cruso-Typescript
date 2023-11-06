@@ -10,3 +10,4 @@
     console.log(typeof activateBatiSignar);
     const heroName = returnName();
 })();
+//# sourceMappingURL=functions.js.map

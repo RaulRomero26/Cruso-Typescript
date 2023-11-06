@@ -3,7 +3,7 @@
     const addNumbers = (a, b) => a + b;
     const greet = (name) => `Hola ${name}`;
     const saveTheWorld = () => `El mundo esta salvado`;
-    let myFunction; //(y:number,z:number) => number;//para darle tipado
+    let myFunction;
     myFunction = 10;
     myFunction = addNumbers;
     console.log(myFunction(1, 2));
@@ -12,3 +12,4 @@
     myFunction = saveTheWorld;
     console.log(myFunction());
 })();
+//# sourceMappingURL=function-type.js.map
