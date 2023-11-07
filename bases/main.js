@@ -1,19 +1,14 @@
 "use strict";
 (() => {
-    const avengers = {
-        nick: 'Samuel L. Jackson',
-        ironman: 'Robert Downey Jr.',
-        vision: 'Paul Bettany',
-        activo: true,
-        poder: 1500.123123
-    };
-    const { poder, vision } = avengers;
-    const avengersArr = ['Cap. América', true, 150.15];
-    const [capitan, ironman, seriaUnNumero] = avengersArr;
-})();
-(() => {
-    const getName = () => {
-        console.log('viejo get name');
-    };
+    class Avenger {
+        constructor(name, team, realName) {
+            this.name = name;
+            this.team = team;
+            this.realName = realName;
+        }
+    }
+    Avenger.avgAge = 35;
+    const antman = new Avenger('Antman', 'Capitan');
+    console.log(antman);
 })();
 //# sourceMappingURL=main.js.map
