@@ -9,5 +9,10 @@
 
     const {poder, vision} = avengers;
 
-    console.log(poder.toFixed(2),vision.toLocaleUpperCase())
+    //console.log(poder.toFixed(2),vision.toLocaleUpperCase())
+
+    const avengersArr: [string,boolean,number] = ['Cap. América',true,150.15];
+
+    const [capitan,ironman, seriaUnNumero] = avengersArr;
+    // console.log({ironman,capitan, seriaUnNumero});
 })()

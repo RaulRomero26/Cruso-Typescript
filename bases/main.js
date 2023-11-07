@@ -8,7 +8,8 @@
         poder: 1500.123123
     };
     const { poder, vision } = avengers;
-    console.log(poder.toFixed(2), vision.toLocaleUpperCase());
+    const avengersArr = ['Cap. América', true, 150.15];
+    const [capitan, ironman, seriaUnNumero] = avengersArr;
 })();
 (() => {
     const getName = () => {
