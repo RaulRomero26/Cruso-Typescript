@@ -1,29 +1,14 @@
 "use strict";
-const conducirBatimovil = (auto) => {
-    auto.encender = true;
-    auto.velocidadMaxima = 100;
-    auto.acelear();
-};
-const batimovil = {
-    encender: false,
-    velocidadMaxima: 0,
-    acelear() {
-        console.log("...... gogogo!!!");
-    }
-};
-const guason = {
-    reir: true,
-    comer: true,
-    llorar: false
-};
-const reir = (guason) => {
-    if (guason.reir) {
-        console.log("JAJAJAJA");
-    }
-};
-const ciudadGotica = (ciudadanos) => {
-    return ciudadanos.length;
-};
-class Persona {
-}
+var Validations;
+(function (Validations) {
+    Validations.validateText = (text) => {
+        return (text.length > 3) ? true : false;
+    };
+    Validations.validateDate = (myDate) => {
+        return (isNaN(myDate.valueOf()))
+            ? false
+            : true;
+    };
+})(Validations || (Validations = {}));
+console.log(Validations.validateText('Fer'));
 //# sourceMappingURL=main.js.map
