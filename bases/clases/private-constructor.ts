@@ -25,6 +25,6 @@
 //    const apocalipsis2 = new Apocalipsis('Soy apocalipsis2... unico')
 //    const apocalipsis3 = new Apocalipsis('Soy apocalipsis3... unico')
 
-     console.log(apocalipsis1,apocalipsis2,apocalipsis3)
+     //console.log(apocalipsis1,apocalipsis2,apocalipsis3)
 
 })()
